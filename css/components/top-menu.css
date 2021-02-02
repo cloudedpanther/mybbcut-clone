@@ -1,0 +1,15 @@
+.top-menu {
+  align-items: flex-end;
+}
+.top-menu__list {
+  border-right: 1px solid var(--black);
+  padding: 0px 10px;
+  padding-bottom: 1px;
+}
+.top-menu__list:last-child {
+  border: none;
+  padding-right: 0px;
+}
+.top-menu__list:hover {
+  color: skyblue;
+}
