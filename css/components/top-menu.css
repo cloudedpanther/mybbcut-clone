@@ -1,3 +1,9 @@
+.top-menu-box {
+  display: flex;
+}
+.top-menu-box .colon {
+  padding: 0px 5px;
+}
 .top-menu {
   align-items: flex-end;
 }
@@ -6,10 +12,10 @@
   padding: 0px 10px;
   padding-bottom: 1px;
 }
+.top-menu__list:first-child {
+  padding-left: 0px;
+}
 .top-menu__list:last-child {
   border: none;
   padding-right: 0px;
-}
-.top-menu__list:hover {
-  color: skyblue;
 }

@@ -1,0 +1,14 @@
+header,
+.nav-search {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  display: none;
+}
+
+header img {
+  width: 250;
+  height: 50px;
+}

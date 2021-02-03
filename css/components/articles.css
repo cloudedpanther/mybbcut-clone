@@ -1,0 +1,36 @@
+.article-row {
+  margin-bottom: 20px;
+  display: flex;
+}
+.article-object {
+  width: 162px;
+  margin-right: 27px;
+}
+.article-object__title {
+  margin-bottom: 8px;
+}
+.article-object__title span {
+  color: var(--darkblue);
+  font-weight: 700;
+}
+.article-object__image {
+  width: 162px;
+  height: 107px;
+  margin-bottom: 8px;
+  border: var(--border);
+}
+.article-object__image img {
+  width: 162px;
+  height: 107px;
+}
+
+.article-object__image:hover {
+  border: 1px solid skyblue;
+}
+
+.article-object__section {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  margin-bottom: 6px;
+}

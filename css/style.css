@@ -4,10 +4,13 @@
 @import "variables.css";
 
 /* layers */
-@import "layers/top-layer.css";
+@import "layers/header.css";
+@import "layers/nav.css";
+@import "layers/main.css";
 
 /* components */
 @import "components/top-menu.css";
+@import "components/articles.css";
 
 body {
   color: var(--black);
@@ -15,10 +18,14 @@ body {
   /*font-family: "Noto Sans KR", sans-serif;*/
   font-family: "Nanum Gothic", sans-serif;
   font-weight: 400;
+  height: 500vh;
 }
 .wrap {
   margin: 0px auto;
   width: 1000px;
+}
+.wrap__main {
+  display: flex;
 }
 
 ul {
@@ -31,4 +38,11 @@ li {
 a {
   text-decoration: none;
   color: inherit;
+}
+a:hover {
+  color: #3498db;
+  cursor: pointer;
+}
+button:hover {
+  cursor: pointer;
 }
