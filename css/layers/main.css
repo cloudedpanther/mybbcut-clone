@@ -27,7 +27,62 @@ article {
 .page-section {
   display: flex;
   padding: 20px 0px;
+  justify-content: space-between;
+  align-items: center;
 }
 .pages {
   display: flex;
+  align-items: center;
+}
+.previous-page,
+.next-page {
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px 5px;
+  color: white;
+  background-color: #0097e6;
+  border: none;
+}
+.previous-page {
+  background-color: gray;
+}
+.previous-page:hover,
+.page-list__page--previous-page a:hover {
+  cursor: default;
+}
+.page-list__page--previous-page a:hover,
+.page-list__page--next-page a:hover {
+  color: var(--black);
+}
+.page-list__page {
+  padding: 0px 7px;
+  border-right: 2px solid rgba(0, 0, 0, 0.3);
+  font-size: 13px;
+  font-weight: 700;
+}
+.page-list__page--previous-page,
+.page-list__page--next-page {
+  padding: 0px 10px;
+  font-size: 13.5px;
+}
+.page-list__page:last-child {
+  border: none;
+}
+.current-page {
+  color: #ff6348;
+}
+.page-button {
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+.page-button i {
+  margin-right: 5px;
 }
