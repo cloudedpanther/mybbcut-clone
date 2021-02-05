@@ -26,6 +26,8 @@ body {
 }
 .wrap__main {
   display: flex;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #b3cbda;
 }
 
 ul {
