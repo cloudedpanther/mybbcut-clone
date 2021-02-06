@@ -1,0 +1,17 @@
+footer {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-list li {
+  border-right: 1px solid var(--black);
+  padding: 0px 10px;
+}
+.footer-list li:last-child {
+  border: none;
+}
+footer span {
+  font-size: 12px;
+  margin: 12px 0px 18px 0px;
+}
