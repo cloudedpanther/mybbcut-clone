@@ -8,6 +8,7 @@
 @import "layers/nav.css";
 @import "layers/main.css";
 @import "layers/footer.css";
+@import "layers/aside.css";
 
 /* components */
 @import "components/top-menu.css";
@@ -50,4 +51,7 @@ button:hover {
 }
 button:focus {
   outline: none;
+}
+input[type="checkbox"] {
+  margin: 0px;
 }

@@ -1,0 +1,61 @@
+aside {
+  width: 250px;
+}
+.login-box {
+  border: 3px solid var(--box-color);
+  border-radius: 7px;
+  padding: 5px;
+}
+.login-title {
+  padding-top: 3px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eaf0f4;
+  border-radius: 3px;
+  border-top: 2px solid #e7eef2;
+  border-left: 2px solid #e7eef2;
+  border-bottom: 2px solid #c3d6e2;
+  border-right: 2px solid #c3d6e2;
+  font-size: 13px;
+  color: var(--darkblue);
+  font-weight: 700;
+  margin-bottom: 13px;
+}
+.login-title i {
+  margin-right: 5px;
+}
+.login-row {
+  padding: 0px 5px;
+  display: flex;
+  align-items: center;
+}
+.login-row .textbox {
+  width: 140px;
+  height: 15px;
+  border: var(--border);
+  margin-bottom: 4px;
+  margin-right: 10px;
+}
+.login-row input[type="checkbox"] {
+  margin-right: 5px;
+}
+.login-row span {
+  font-size: 11px;
+}
+.login-row .login-button {
+  font-size: 10px;
+  padding: 0px 6px;
+  color: var(--darkblue);
+  font-weight: 700;
+}
+.find-idpw {
+  display: flex;
+  align-items: center;
+  margin: 7px 10px;
+}
+.find-idpw i {
+  color: orange;
+  margin-right: 5px;
+}

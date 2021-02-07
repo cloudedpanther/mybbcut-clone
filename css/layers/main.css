@@ -4,7 +4,7 @@ main {
 }
 /* padding section */
 .padding-section {
-  height: 127px;
+  height: 115px;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -89,7 +89,7 @@ article {
 
 /* categories */
 .categories-box {
-  border: 2px solid #b3cbda;
+  border: 2px solid var(--box-color);
   border-radius: 5px;
 }
 .categories__search,
