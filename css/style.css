@@ -13,6 +13,7 @@
 /* components */
 @import "components/top-menu.css";
 @import "components/articles.css";
+@import "components/bulletin-board.css";
 
 body {
   color: var(--black);
